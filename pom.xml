@@ -21,18 +21,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>io.fabric8</groupId>
-  <artifactId>mockwebserver</artifactId>
-  <version>0.3-SNAPSHOT</version>
+  <groupId>com.dojo</groupId>
+  <artifactId>fabric8io-mockwebserver-okhttp4</artifactId>
+  <version>0.2.2-OKHTTP4</version> <!-- Update version every time we update OkHttp4 and publish -->
   <name>Fabric8 :: Mock Web Server</name>
   <description>Mock Web Server</description>
 
-  <url>http://fabric8.io/</url>
-  <inceptionYear>2015</inceptionYear>
+  <url>http://dojo.tech/</url>
 
   <organization>
-    <name>Red Hat</name>
-    <url>http://redhat.com</url>
+    <name>Dojo</name>
+    <url>http://dojo.tech</url>
   </organization>
 
   <licenses>
@@ -46,25 +45,25 @@
   <!-- including A developer as it's required by the maven poms going into central -->
   <developers>
     <developer>
-      <id>geeks</id>
-      <name>Fabric8 Development Team</name>
-      <organization>fabric8</organization>
-      <organizationUrl>http://fabric8.io/</organizationUrl>
+      <id>github</id>
+      <name>Dojo Pay App Team</name>
+      <organization>Paymentsense</organization>
+      <organizationUrl>https://dojo.tech</organizationUrl>
     </developer>
   </developers>
 
   <scm>
-    <connection>scm:git:git@github.com:fabric8io/mockwebserver.git</connection>
-    <developerConnection>scm:git:git@github.com:fabric8io/mockwebserver.git</developerConnection>
-    <url>http://github.com/fabric8io/mockwebserver/</url>
+    <connection>scm:git:git@github.com:paymentsense/mockwebserver-okhttp4.git</connection>
+    <developerConnection>scm:git:git@github.com:paymentsense/mockwebserver-okhttp4.git</developerConnection>
+    <url>http://github.com/paymentsense/mockwebserver-okhttp4/</url>
     <tag>${project.version}</tag>
   </scm>
 
   <distributionManagement>
     <repository>
-      <id>oss-sonatype-staging</id>
-      <name>Sonatype Staging Repository</name>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+      <id>github</id>
+      <name>Paymentsense</name>
+      <url>https://maven.pkg.github.com/Paymentsense/mockwebserver-okhttp4</url>
     </repository>
   </distributionManagement>
 
@@ -74,7 +73,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
 
     <!-- Dependencies -->
-    <okhttp.version>3.12.12</okhttp.version>
+    <okhttp.version>4.9.1</okhttp.version>
     <jackson.version>2.13.0</jackson.version>
     <zjsonpatch.version>0.3.0</zjsonpatch.version>
 
