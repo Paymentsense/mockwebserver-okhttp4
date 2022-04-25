@@ -45,7 +45,7 @@
   <!-- including A developer as it's required by the maven poms going into central -->
   <developers>
     <developer>
-      <id>github</id>
+      <id>Dojo</id>
       <name>Dojo Pay App Team</name>
       <organization>Paymentsense</organization>
       <organizationUrl>https://dojo.tech</organizationUrl>
