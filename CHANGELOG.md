@@ -7,6 +7,10 @@
 #### Dependency Upgrade
 #### New Feature
 
+### 0.2.3 (2025-07-16)
+
+OkHttp bump to 5.1.0
+
 ### 0.2.2 (2021-11-03)
 
 #### Bugs
