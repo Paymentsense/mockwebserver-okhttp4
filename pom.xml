@@ -23,7 +23,7 @@
 
   <groupId>com.dojo</groupId>
   <artifactId>fabric8io-mockwebserver-okhttp4</artifactId>
-  <version>4.9.3</version> <!-- Update version every time we update OkHttp4 to matching OkHttp4 version number in PAX-PaymentApp and publish -->
+  <version>5.1.0</version> <!-- Update version every time we update OkHttp4 to matching OkHttp4 version number in PAX-PaymentApp and publish -->
   <name>Fabric8 :: Mock Web Server</name>
   <description>Mock Web Server</description>
 
@@ -73,7 +73,7 @@
     <maven.compiler.target>1.8</maven.compiler.target>
 
     <!-- Dependencies -->
-    <okhttp.version>4.9.1</okhttp.version>
+    <okhttp.version>5.1.0</okhttp.version>
     <jackson.version>2.13.0</jackson.version>
     <zjsonpatch.version>0.3.0</zjsonpatch.version>
 
